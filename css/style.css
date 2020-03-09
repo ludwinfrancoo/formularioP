@@ -1,0 +1,25 @@
+.centradoimagen{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 883px;
+	width: 600px;
+}
+.formulario{
+	height: 883px;
+	background-color: red;
+	
+}
+.f1{
+	font-family: 'Anton', sans-serif;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	text-shadow: 2px 2px 2px grey;
+}
+
+.f2{
+	font-family: 'Anton', sans-serif;
+}
