@@ -23,3 +23,19 @@
 .f2{
 	font-family: 'Anton', sans-serif;
 }
+
+.listad{
+	font-family: 'Anton', sans-serif;
+}
+.cl{
+	font-family: 'Anton', sans-serif;
+	color: white;
+	font-size: 30px;
+	text-shadow: 2px 2px 2px grey;
+}
+.btn{
+	font-family: 'Anton', sans-serif;
+	font-size: 20px;
+	box-shadow: 2px 2px 2px grey;
+	
+}

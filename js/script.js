@@ -11,3 +11,17 @@ var firebaseConfig = {
     // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   var database = firebase.database();
+
+
+pagina = angular.module("pagina",[])
+
+
+pagina.controller("productosCtr", function($scope){
+    $scope.almacenar = function(producto){
+        firebase.database().ref("Productos").push(producto).then(function a(x){
+            
+        }).catch(function b(error){
+
+        })
+    }
+})
